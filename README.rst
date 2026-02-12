@@ -33,6 +33,20 @@ If the shared library is missing, the test suite will provide
 diagnostic information including the expected library path
 and the detected ``HEADAS`` environment variable.
 
+Diagnostics
+-----------
+
+If you encounter issues building the native library, you can run:
+
+    python -m reltrans.diagnostics
+
+This will report:
+
+- Operating system
+- HEADAS environment variable
+- Expected shared library path
+- Whether the library exists
+
 Reporting errors and requesting features
 ========================================
 
